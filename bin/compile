@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+# sync output
+$stdout.sync = true
+
+puts 'RUNNING compile SCRIPT'
