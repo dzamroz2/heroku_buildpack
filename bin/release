@@ -1,6 +1,7 @@
-#!/usr/bin/env ruby
+#!/bin/sh
 
-# sync output
-$stdout.sync = true
-
-puts 'RUNNING release SCRIPT'
+cat << EOF
+---
+addons: []
+default_process_types: []
+EOF
